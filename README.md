@@ -1,5 +1,7 @@
 ## My Mac Setup
 
+From : https://github.com/epancie/mac-setup
+
 This repo contains info on all the apps / tools / settings I use on my Mac.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
