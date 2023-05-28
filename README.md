@@ -13,6 +13,7 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
   - [Terminal](#terminal)
   - [Shell](#shell)
     - [zsh](#zsh)
+      - [Install and configurepowerlevel10k](#powerlevel10k)
     - [bash](#bash)
       - [Install Bash and set it as the default](#install-bash-and-set-it-as-the-default)
       - [Customizing Bash with `.bash_profile`](#customizing-bash-with-bash_profile)
@@ -114,6 +115,10 @@ Once installed, launch it and customize the settings / preferences to your likin
 ### Shell
 #### zsh
 Mac now comes with `zsh` as the default 
+if you need to install --> ohmys.sh(https://ohmyz.sh/#install)
+
+##### powerlevel10k
+Follow instruccions in powerlevel10k-git-repo(https://github.com/romkatv/powerlevel10k)
 
 #### bash
 [shell](https://en.wikipedia.org/wiki/Comparison_of_command_shells). `bash` is my preferred shell.
@@ -191,7 +196,7 @@ cd ~
 curl -O https://raw.githubusercontent.com/w3cj/dotfiles/master/.bash_profile
 ```
 
-#### Commands used by my .bash_profile
+##### Commands used by my .bash_profile
 
 * vcprompt - list the current branch if in a folder that is a git repo
 * [fortune](https://en.wikipedia.org/wiki/Fortune_(Unix)) - print a random quote / story / joke / poem.
