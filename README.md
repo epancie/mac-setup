@@ -17,7 +17,7 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
     - [Commands used by my .bash_profile](#commands-used-by-my-bash_profile)
     - [Install the latest version of git](#install-the-latest-version-of-git)
     - [Other command line tools I use](#other-command-line-tools-i-use)
-- [Download Chrome](#Chrome Download)
+- [Download Chrome](#Chrome-Download)
 - [OS Productivity](#os-productivity)
   - [Window Management](#window-management)
   - [App Switching](#app-switching)
