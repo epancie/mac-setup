@@ -80,6 +80,19 @@ We install this using a Homebrew "cask". Casks are full applications, similar to
 brew install iterm2
 ```
 
+* Instal fonts (from (https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
+1. Download these four ttf files:
+   - [MesloLGS NF Regular.ttf](
+       https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
+   - [MesloLGS NF Bold.ttf](
+       https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
+   - [MesloLGS NF Italic.ttf](
+       https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
+   - [MesloLGS NF Bold Italic.ttf](
+       https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
+2. Double-click on each file and click "Install". This will make `MesloLGS NF` font available to all
+   applications on your system.
+
 Once installed, launch it and customize the settings / preferences to your liking. These are my preferred settings:
 
 * Appearance
@@ -92,7 +105,8 @@ Once installed, launch it and customize the settings / preferences to your likin
       * Text -> Font -> Anonymous Pro
           * You can download this font [here](https://www.marksimonson.com/fonts/view/anonymous-pro).
           * I use this font in VS Code as well
-      * Text -> Font Size -> 36
+      * Text -> Font MesloLGS NF | Regular
+      * Text -> Font Size -> 13
           * I use my Macbook to present / teach, so a big font size is important so everyone can see the commands I'm typing
       * Keys -> Key Mappings -> Presets -> Natural Text Editing
           * This allows me to use the [keyboard shortcuts](https://gist.github.com/w3cj/022081eda22081b82c52) I know and love inside of iTerm2
