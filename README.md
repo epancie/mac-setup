@@ -12,11 +12,13 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
   - [Homebrew](#homebrew)
   - [Terminal](#terminal)
   - [Shell](#shell)
-    - [Install Bash and set it as the default](#install-bash-and-set-it-as-the-default)
-    - [Customizing Bash with `.bash_profile`](#customizing-bash-with-bash_profile)
-    - [Commands used by my .bash_profile](#commands-used-by-my-bash_profile)
-    - [Install the latest version of git](#install-the-latest-version-of-git)
-    - [Other command line tools I use](#other-command-line-tools-i-use)
+    - [zsh](#zsh)
+    - [bash](#bash)
+      - [Install Bash and set it as the default](#install-bash-and-set-it-as-the-default)
+      - [Customizing Bash with `.bash_profile`](#customizing-bash-with-bash_profile)
+      - [Commands used by my .bash_profile](#commands-used-by-my-bash_profile)
+     - [Install the latest version of git](#install-the-latest-version-of-git)
+     - [Other command line tools I use](#other-command-line-tools-i-use)
 - [Download Chrome](#Chrome-Download)
 - [OS Productivity](#os-productivity)
   - [Window Management](#window-management)
@@ -96,14 +98,17 @@ Once installed, launch it and customize the settings / preferences to your likin
           * This allows me to use the [keyboard shortcuts](https://gist.github.com/w3cj/022081eda22081b82c52) I know and love inside of iTerm2
 
 ### Shell
+#### zsh
+Mac now comes with `zsh` as the default 
 
-Mac now comes with `zsh` as the default [shell](https://en.wikipedia.org/wiki/Comparison_of_command_shells). `bash` is my preferred shell.
+#### bash
+[shell](https://en.wikipedia.org/wiki/Comparison_of_command_shells). `bash` is my preferred shell.
 
-I prefer bash because every remote linux machine I log into uses bash. Also, most shell scripts you come across (`.sh` files) are meant to be run on `sh` (Bourne shell) or `bash` (Bourne again shell). These files _might_ run on `zsh`, but there might be some compatibility issues.
+if you prefer bash because every remote linux machine I log into uses bash. Also, most shell scripts you come across (`.sh` files) are meant to be run on `sh` (Bourne shell) or `bash` (Bourne again shell). These files _might_ run on `zsh`, but there might be some compatibility issues.
 
 If you are a beginner, you probably don't need to replace your shell with `bash`. If you're going to stick with `zsh`, checkout [Oh My Zsh](https://ohmyz.sh/) which gives you a bunch of customizations out of the box.
 
-#### Install Bash and set it as the default
+##### Install Bash and set it as the default
 
 To see what shell is currently your default, run:
 
@@ -157,7 +162,7 @@ You can run the following to confirm you shell has changed:
 echo $SHELL
 ```
 
-#### Customizing Bash with `.bash_profile`
+##### Customizing Bash with `.bash_profile`
 
 I have a custom `.bash_profile` with all of my custom settings including a customized prompt, aliases, PATH variables, colors and more.
 
