@@ -345,7 +345,7 @@ postmam
 xargs brew install < apps.txt
 ```
 
-## From AppStore
+### From AppStore
 
 * Filemeu
 * Goodnotes
