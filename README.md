@@ -7,7 +7,8 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
+- [Dropbox](#Dropbox)
+- [Office 356](#Office365)
 - [Homebrew / Terminal / Shell](#homebrew--terminal--shell)
   - [Homebrew](#homebrew)
   - [Terminal](#terminal)
@@ -42,6 +43,11 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## Dropbox
+Install [Dropbox](https://www.dropbox.com/install)
+
+## Office365
+Install [Office365](https://support.microsoft.com/en-us/office/download-and-install-or-reinstall-microsoft-365-or-office-2021-on-a-pc-or-mac-4414eaaf-0478-48be-9c42-23adc4716658)
 
 ## Homebrew / Terminal / Shell
 
@@ -115,7 +121,7 @@ Once installed, launch it and customize the settings / preferences to your likin
 ### Shell
 #### zsh
 Mac now comes with `zsh` as the default 
-if you need to install --> [ohmys.sh](https://ohmyz.sh/#install)
+if you need to install --> [ohmys.sh](https://ohmyz.sh/#install) and skip de zsh instalation if your OS already has it.
 
 ##### powerlevel10k
 Follow instruccions in [powerlevel10k gitrepo](https://github.com/romkatv/powerlevel10k)
