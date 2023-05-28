@@ -307,6 +307,13 @@ brew install alfred
 * [visual-studio-code](https://code.visualstudio.com/) - Code Editor
 * [sublime-text](https://www.sublimetext.com/) - Note taking (I know there are better apps...)
 * [insomnia](https://insomnia.rest/products/insomnia) - HTTP / REST / GraphQL tester / requester
+* [macpass](https://macpassapp.org/) - Passworkd Manager
+* [obs](https://obsproject.com) - Open Broadcaster software
+* [miro](https://miro.com/) - Drawing colaboration tool
+* [Draw.io](https://www.drawio.com/) - Diagrams
+* [Sublime-text](https://download.sublimetext.com) - Plain Text Editor
+* [Postmam](https://www.postman.com/) - Collaboration platform for API development
+
 
 You can install them in one go by placing them all into a text file and then running brew install:
 
@@ -327,11 +334,23 @@ inkscape
 visual-studio-code
 sublime-text
 insomnia
+macpass
+obs
+miro
+drawio
+postmam
 ```
 
 ```sh
 xargs brew install < apps.txt
 ```
+
+## From AppStore
+
+* Filemeu
+* Goodnotes
+* Foxit PDF Reader
+* Whatsapp desktop
 
 ## OS Settings
 
