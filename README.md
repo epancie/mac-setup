@@ -8,7 +8,6 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [What Macbook do I have?](#what-macbook-do-i-have)
 - [Homebrew / Terminal / Shell](#homebrew--terminal--shell)
   - [Homebrew](#homebrew)
   - [Terminal](#terminal)
@@ -18,6 +17,7 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
     - [Commands used by my .bash_profile](#commands-used-by-my-bash_profile)
     - [Install the latest version of git](#install-the-latest-version-of-git)
     - [Other command line tools I use](#other-command-line-tools-i-use)
+- [Download Chrome])(#Chrome Download)
 - [OS Productivity](#os-productivity)
   - [Window Management](#window-management)
   - [App Switching](#app-switching)
@@ -39,18 +39,6 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## What Macbook do I have?
-
-In the 2022 setup video I was using the 2015 Macbook Pro. You can read more about it [here](https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i7-2.5-15-dual-graphics-mid-2015-retina-display-specs.html)
-
-I am now using the 2021 14" Macbook Pro. This setup works exactly the same on there.
-
-These are the specs at a glance:
-* Apple M1 Pro
-* 16GB RAM
-* 500GB SSD
-
-Read more about this Macbook [here](https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-m1-pro-8-core-cpu-14-core-gpu-14-2021-specs.html)
 
 ## Homebrew / Terminal / Shell
 
@@ -230,6 +218,11 @@ git config --global core.editor nano
 brew install ffmpeg
 brew install imagemagick
 ```
+
+## Chrome Download
+
+Download Chorme browser from (https://www.google.com/chrome)
+
 
 ## OS Productivity
 
