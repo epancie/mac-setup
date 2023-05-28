@@ -115,10 +115,10 @@ Once installed, launch it and customize the settings / preferences to your likin
 ### Shell
 #### zsh
 Mac now comes with `zsh` as the default 
-if you need to install --> ohmys.sh(https://ohmyz.sh/#install)
+if you need to install --> [ohmys.sh](https://ohmyz.sh/#install)
 
 ##### powerlevel10k
-Follow instruccions in powerlevel10k-git-repo(https://github.com/romkatv/powerlevel10k)
+Follow instruccions in [powerlevel10k gitrepo](https://github.com/romkatv/powerlevel10k)
 
 #### bash
 [shell](https://en.wikipedia.org/wiki/Comparison_of_command_shells). `bash` is my preferred shell.
