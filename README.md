@@ -40,6 +40,7 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
   - [Global Modules](#global-modules)
 - [VS Code](#vs-code)
 - [Break Timer](#break-timer)
+- [Machine Learning](#machine-learning)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -505,4 +506,22 @@ I have it setup to show:
 * 5 minute long break every 60 minutes
 
 There is also a cross platform break timer call [Stretchly](https://hovancik.net/stretchly/). I have not used it but a lot of people have recommended it.
+
+## Machine Learning
+
+### Install R, RStudio and Anaconda
+```
+brew install rstudio
+brew install --cask r
+brew install rstudio
+brew install anaconda
+```
+### Set enviroment varobale for Anaconda
+Set the anacoando python path to enviroment
+
+```
+cd ˜
+echo '##########zsh enviroment in epancie######################\n#Add anacondoa to the path\nexport PATH=/Users/epanciera/Library/Python/3.9/bin:$PATH' >>.zshenv
+```
+
 
