@@ -297,6 +297,7 @@ brew install alfred
 * [app-cleaner](https://freemacsoft.net/appcleaner/) - When removing an app, will search your file system for related files / settings that should be removed as well
 * android-file-transfer - Transfer files to / from my android phone
 * android-platform-tools - Installs `adb` without the need for the full android studio.
+* [scrcpy]-(https://github.com/Genymobile/scrcpy/blob/master/doc/macos.md) - This application mirrors Android devices (video and audio) connected via USB or over TCP/IP
 * [keepingyouawake](https://keepingyouawake.app/) - Prevents my Mac from going to sleep when I'm presenting / live streaming
 * [discord](https://discord.com/) - Messaging / Community
 * [vlc](https://www.videolan.org/) - I use VLC to watch videos instead of the built in QuickTime.
