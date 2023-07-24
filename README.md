@@ -41,6 +41,7 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 - [VS Code](#vs-code)
 - [Break Timer](#break-timer)
 - [Machine Learning](#machine-learning)
+- [Virtualization](#virtualization)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -524,5 +525,11 @@ Set the anacoando python path to enviroment
 cd ˜
 echo '##########zsh enviroment in epancie######################\n#Add anacondoa to the path\nexport PATH=/Users/epanciera/Library/Python/3.9/bin:$PATH' >>.zshenv
 ```
+## Virtualization
 
+### Instal UTM
+
+```
+brew install --cask utm
+```
 
