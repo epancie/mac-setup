@@ -42,6 +42,7 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 - [Break Timer](#break-timer)
 - [Machine Learning](#machine-learning)
 - [Virtualization](#virtualization)
+- [OpenVPN Client] (#openvpn-client)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -533,3 +534,8 @@ echo '##########zsh enviroment in epancie######################\n#Add anacondoa 
 brew install --cask utm
 ```
 
+### OpenVPN Client
+
+```
+brew install --cask openvpn-connect
+```
