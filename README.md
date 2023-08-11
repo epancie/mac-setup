@@ -539,3 +539,5 @@ brew install --cask utm
 ```
 brew install --cask openvpn-connect
 ```
+Older version download from [Download OpenVPN Connect v2.7.1](https://openvpn.net/downloads/openvpn-connect-v2-macos.dmg)
+
