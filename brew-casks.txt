@@ -1,4 +1,5 @@
 iterm2
+warp
 alfred
 rectangle
 alt-tab

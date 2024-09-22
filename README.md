@@ -7,26 +7,29 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Dropbox](#Dropbox)
-- [Office 356](#Office365)
+- [My Mac Setup](#my-mac-setup)
+- [Dropbox](#dropbox)
+- [Office365](#office365)
 - [Homebrew / Terminal / Shell](#homebrew--terminal--shell)
   - [Homebrew](#homebrew)
-  - [Terminal](#terminal)
+  - [Terminal=\>iTerm2](#terminaliterm2)
+  - [Terminal=\>warp](#terminalwarp)
   - [Shell](#shell)
     - [zsh](#zsh)
-      - [Install and configurepowerlevel10k](#powerlevel10k)
+      - [powerlevel10k](#powerlevel10k)
     - [bash](#bash)
       - [Install Bash and set it as the default](#install-bash-and-set-it-as-the-default)
       - [Customizing Bash with `.bash_profile`](#customizing-bash-with-bash_profile)
-      - [Commands used by my .bash_profile](#commands-used-by-my-bash_profile)
-     - [Install the latest version of git](#install-the-latest-version-of-git)
-     - [Other command line tools I use](#other-command-line-tools-i-use)
-- [Download Chrome](#Chrome-Download)
+      - [Commands used by my .bash\_profile](#commands-used-by-my-bash_profile)
+    - [Install the latest version of git](#install-the-latest-version-of-git)
+    - [Other command line tools I use](#other-command-line-tools-i-use)
+- [Chrome Download](#chrome-download)
 - [OS Productivity](#os-productivity)
   - [Window Management](#window-management)
   - [App Switching](#app-switching)
   - [Quick Launching](#quick-launching)
 - [Other Apps I Use Daily](#other-apps-i-use-daily)
+  - [From AppStore](#from-appstore)
 - [OS Settings](#os-settings)
   - [Finder](#finder)
   - [Dock](#dock)
@@ -41,8 +44,11 @@ This repo contains info on all the apps / tools / settings I use on my Mac.
 - [VS Code](#vs-code)
 - [Break Timer](#break-timer)
 - [Machine Learning](#machine-learning)
+  - [Install R, RStudio and Anaconda](#install-r-rstudio-and-anaconda)
+  - [Set enviroment varobale for Anaconda](#set-enviroment-varobale-for-anaconda)
 - [Virtualization](#virtualization)
-- [OpenVPN Client](#openvpn-client)
+  - [Instal UTM](#instal-utm)
+  - [OpenVPN Client](#openvpn-client)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -68,7 +74,7 @@ This will also install the xcode build tools which is needed by many other devel
 
 After Homebrew is done installing, we will use it to install everything else we need.
 
-### Terminal
+### Terminal=>iTerm2
 
 The first app I install is to replace the built in `Terminal`.
 
@@ -120,6 +126,16 @@ Once installed, launch it and customize the settings / preferences to your likin
           * I use my Macbook to present / teach, so a big font size is important so everyone can see the commands I'm typing
       * Keys -> Key Mappings -> Presets -> Natural Text Editing
           * This allows me to use the [keyboard shortcuts](https://gist.github.com/w3cj/022081eda22081b82c52) I know and love inside of iTerm2
+
+
+### Terminal=>warp 
+
+Other optinos for terminal is [WARP](https://www.warp.dev/). This is very interesting terminal which include support for AI. We have to install also using Homebrew "cask".
+
+```
+brew install --cask warp
+```
+
 
 ### Shell
 #### zsh
