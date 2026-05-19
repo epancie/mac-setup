@@ -359,6 +359,7 @@ obs
 miro
 drawio
 postmam
+obsidean
 ```
 
 ```sh
